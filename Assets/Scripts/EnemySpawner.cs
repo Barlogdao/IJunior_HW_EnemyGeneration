@@ -6,8 +6,8 @@ public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private List<Transform> _spawnPoints;
     [SerializeField] private Enemy _enemyPrefab;
-
-    [SerializeField] Vector2 _direction;
+ 
+    [SerializeField] Vector2 _enemyDirection;
     [SerializeField] private float _spawnDelay;
 
     private IEnumerator Start()
@@ -23,7 +23,8 @@ public class EnemySpawner : MonoBehaviour
     private void SpawnEnemy()
     {
         var enemy = Instantiate(_enemyPrefab, GetRandomSpawnPoint().position, Quaternion.identity);
-        enemy.SetDirection(_direction);
+
+        enemy.SetNormalizedDirection(_enemyDirection.normalized);
     }
 
     private Transform GetRandomSpawnPoint()

@@ -8,11 +8,16 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-        transform.position += _speed * Time.deltaTime * _direction;
+        Move();
     }
 
-    public void SetDirection (Vector2 direction)
+    public void SetNormalizedDirection (Vector2 normalizedDirection)
     {
-        _direction = direction;
+        _direction = normalizedDirection;
+    }
+
+    private void Move()
+    {
+        transform.position += _speed * Time.deltaTime * _direction;
     }
 }
