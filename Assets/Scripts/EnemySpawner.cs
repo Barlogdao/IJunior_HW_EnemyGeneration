@@ -22,14 +22,14 @@ public class EnemySpawner : MonoBehaviour
 
     private void SpawnEnemy()
     {
-        var enemy = Instantiate(_enemyPrefab, GetRandomSpawnPoint().position, Quaternion.identity);
+        var enemy = Instantiate(_enemyPrefab, GetRandomSpawnPosition(), Quaternion.identity);
 
         enemy.SetNormalizedDirection(_enemyDirection.normalized);
     }
 
-    private Transform GetRandomSpawnPoint()
+    private Vector3 GetRandomSpawnPosition()
     {
-        return _spawnPoints[Random.Range(0, _spawnPoints.Count)];
+        return _spawnPoints[Random.Range(0, _spawnPoints.Count)].position;
     }
 
 
