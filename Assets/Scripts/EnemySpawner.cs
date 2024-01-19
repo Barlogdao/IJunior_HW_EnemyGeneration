@@ -31,8 +31,4 @@ public class EnemySpawner : MonoBehaviour
     {
         return _spawnPoints[Random.Range(0, _spawnPoints.Count)].position;
     }
-
-
-
-
 }
