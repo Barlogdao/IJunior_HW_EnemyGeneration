@@ -1,0 +1,976 @@
+fileFormatVersion: 2
+guid: 5ea6af199f20f2f4c88bb3063db06876
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 42
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cb1c539bcc1d64282bf7355ef172a2
+      internalID: 717303743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 476
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d16f4394c67594c942a36d2098c73c
+      internalID: -716396281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 476
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e306cf1e5b6317d4ab8f60f86b247e86
+      internalID: -304906529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 476
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce8755801be75c46825872d70f2828d
+      internalID: 1790030829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 476
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a81f85d0b4b489449cd72ee2b15773a
+      internalID: -734758981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43490b28f359f2a4485b9ab30353f955
+      internalID: -1121153361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 408
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99553c96d98eb4741a945d89de2498c6
+      internalID: 2066999784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 408
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414e93d3ba0f75b4d926bd15027cd15b
+      internalID: -1779381562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 408
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147614ac49dc90142b80509a78008f83
+      internalID: -1572264116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 408
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbfaea6248f0004194b88a5fe46ea37
+      internalID: 176602677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9594f316f42027342932557fe3ab4ca4
+      internalID: 1462222382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 340
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa481691e9755946827bea484d9cf3a
+      internalID: -1501121538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 340
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb49a25bec03d1942bff254cb642afb2
+      internalID: 444513241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 340
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe90070ad1b2295468d280c125a4beff
+      internalID: 102391538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 340
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcabd1c448821674786ff0ea2a3d078a
+      internalID: 1595388046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dbacf4cfebe4646bd0d1e190006c18
+      internalID: 335035336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 272
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d1683384ecd5946b2d51831a25fadc
+      internalID: -1682980275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 272
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f456cecba5e4f6a4bb73ebbad8cd30c0
+      internalID: -1439128917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 272
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ccd17b5440963478ec84c4e6bf2c32
+      internalID: 1515272582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 272
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c30e0b19cd42e4791e7c2a1504000c
+      internalID: -926149224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2212241fdce3f4d9261ab40befc9c5
+      internalID: -1326650751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 204
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1008adc58e36d2a43884c3036b4bbdcc
+      internalID: 1238781452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 204
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c7ec025dd559e4e8582b5f87cc8131
+      internalID: 928968626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 204
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67818335d2fe122489a15a1aeabb4197
+      internalID: 81477325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 204
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ae0e64aa448dd43b6e6137ea1addd2
+      internalID: -670343573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fb9c90437b5b940919aa4763a8ad6c
+      internalID: 1580482909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 136
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046da48be28cfdb4ba519dcb456aa2c9
+      internalID: 362038989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 136
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be305c80c8562574390d7416d319d58f
+      internalID: 1368296121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 136
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee55f5127bfeca345b1b9dd2859b1fa1
+      internalID: -1485748896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 136
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390af10b726122c43bb71d8a0d34bc5b
+      internalID: 800718231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85d24ce28c985a4eaf4a26ed855d1c4
+      internalID: 1241456783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 68
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1e70f16f71ecc4ab0348d261c83e54
+      internalID: 1427782035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 68
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047350be04cc5f8478cbf807ff03b126
+      internalID: -1009684572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 68
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d100b6c778343f40b2e23ff59f277e3
+      internalID: -294935899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 68
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db37d0bb48362764ba3dff532caf79e7
+      internalID: 494169192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0797305b836e45a46886f3ffc76eca39
+      internalID: -645769494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea22289407621447b0efc1c108e5064
+      internalID: -458306416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scout Project_SpiteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 88
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64397b8d22a61f94b91552784e1cd28f
+      internalID: 669438879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Scout Project_SpiteSheet_0: 717303743
+      Scout Project_SpiteSheet_1: -716396281
+      Scout Project_SpiteSheet_10: 1462222382
+      Scout Project_SpiteSheet_11: -1501121538
+      Scout Project_SpiteSheet_12: 444513241
+      Scout Project_SpiteSheet_13: 102391538
+      Scout Project_SpiteSheet_14: 1595388046
+      Scout Project_SpiteSheet_15: 335035336
+      Scout Project_SpiteSheet_16: -1682980275
+      Scout Project_SpiteSheet_17: -1439128917
+      Scout Project_SpiteSheet_18: 1515272582
+      Scout Project_SpiteSheet_19: -926149224
+      Scout Project_SpiteSheet_2: -304906529
+      Scout Project_SpiteSheet_20: -1326650751
+      Scout Project_SpiteSheet_21: 1238781452
+      Scout Project_SpiteSheet_22: 928968626
+      Scout Project_SpiteSheet_23: 81477325
+      Scout Project_SpiteSheet_24: -670343573
+      Scout Project_SpiteSheet_25: 1580482909
+      Scout Project_SpiteSheet_26: 362038989
+      Scout Project_SpiteSheet_27: 1368296121
+      Scout Project_SpiteSheet_28: -1485748896
+      Scout Project_SpiteSheet_29: 800718231
+      Scout Project_SpiteSheet_3: 1790030829
+      Scout Project_SpiteSheet_30: 1241456783
+      Scout Project_SpiteSheet_31: 1427782035
+      Scout Project_SpiteSheet_32: -1009684572
+      Scout Project_SpiteSheet_33: -294935899
+      Scout Project_SpiteSheet_34: 494169192
+      Scout Project_SpiteSheet_35: -645769494
+      Scout Project_SpiteSheet_36: -458306416
+      Scout Project_SpiteSheet_37: 669438879
+      Scout Project_SpiteSheet_4: -734758981
+      Scout Project_SpiteSheet_5: -1121153361
+      Scout Project_SpiteSheet_6: 2066999784
+      Scout Project_SpiteSheet_7: -1779381562
+      Scout Project_SpiteSheet_8: -1572264116
+      Scout Project_SpiteSheet_9: 176602677
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

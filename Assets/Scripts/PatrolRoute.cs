@@ -1,24 +1,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PatrolRoute: MonoBehaviour
+public class PatrolRoute
 {
     [SerializeField] private List<Transform> _patrolPoints;
 
-    private Queue<Vector3> _routePoints;
+    private readonly Queue<Vector3> _routePoints;
 
-
-    private void Awake()
+    public PatrolRoute(List<Transform> patrolPoints)
     {
         _routePoints = new Queue<Vector3>();
 
-        foreach (Transform point in _patrolPoints)
+        foreach (Transform point in patrolPoints)
         {
             _routePoints.Enqueue(point.position);
         }
     }
 
-    public Vector3 GetNextPatrolPoint()
+    public Vector3 GetNextPoint()
     {
         Vector3 nextPoint = _routePoints.Dequeue();
 

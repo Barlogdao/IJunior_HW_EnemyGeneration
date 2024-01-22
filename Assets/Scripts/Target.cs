@@ -4,13 +4,15 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     [SerializeField] private float _speed = 2;
-    [SerializeField] private PatrolRoute _patrolRoute;
+    [SerializeField] private List<Transform> _patrolPoints;
 
+    private PatrolRoute _patrolRoute;
     private Vector3 _nextPoint;
 
     private void Awake()
     {
-        _nextPoint = _patrolRoute.GetNextPatrolPoint();
+        _patrolRoute = new PatrolRoute(_patrolPoints);
+        _nextPoint = _patrolRoute.GetNextPoint();
     }
 
     private void Update()
@@ -24,9 +26,9 @@ public class Target : MonoBehaviour
 
         transform.Translate(direction * _speed * Time.deltaTime);
 
-        if(Vector3.Distance(transform.position, _nextPoint) <= 0.1f)
+        if (Vector3.Distance(transform.position, _nextPoint) <= 0.1f)
         {
-            _nextPoint = _patrolRoute.GetNextPatrolPoint() ;
+            _nextPoint = _patrolRoute.GetNextPoint();
         }
     }
 }

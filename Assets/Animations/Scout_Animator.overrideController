@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scout_Animator
+  m_Controller: {fileID: 9100000, guid: 8cdea09f66106e740a07a34e338061bc, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c0afcfec02d6aa44ebfec42074cccacc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6a44d2007224f244fb3f4846c8e7e1e4, type: 2}
