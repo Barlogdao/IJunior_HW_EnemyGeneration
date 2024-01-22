@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3691098633631321562}
   - component: {fileID: 8653721550135731291}
+  - component: {fileID: 5448823979807076572}
   m_Layer: 0
   m_Name: Spawn Point
   m_TagString: Untagged
@@ -84,3 +85,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5448823979807076572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7185069942062341435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e1d7f9fe5a9b84f8d197d23fed9143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _target: {fileID: 0}
+  _enemyPrefab: {fileID: 8470276257775062849, guid: fbb48b8a667510547819b270fe91f00e, type: 3}

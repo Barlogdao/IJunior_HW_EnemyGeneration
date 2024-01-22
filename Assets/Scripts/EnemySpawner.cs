@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] private List<Transform> _spawnPoints;
-    [SerializeField] private Enemy _enemyPrefab;
- 
-    [SerializeField] Vector2 _enemyDirection;
+    [SerializeField] private List<SpawnPoint> _spawnPoints;
+
     [SerializeField] private float _spawnDelay;
 
     private IEnumerator Start()
@@ -22,13 +20,11 @@ public class EnemySpawner : MonoBehaviour
 
     private void SpawnEnemy()
     {
-        var enemy = Instantiate(_enemyPrefab, GetRandomSpawnPosition(), Quaternion.identity);
-
-        enemy.SetNormalizedDirection(_enemyDirection.normalized);
+        GetRandomSpawnPoint().SpawnEnemy();
     }
 
-    private Vector3 GetRandomSpawnPosition()
+    private SpawnPoint GetRandomSpawnPoint()
     {
-        return _spawnPoints[Random.Range(0, _spawnPoints.Count)].position;
+        return _spawnPoints[Random.Range(0, _spawnPoints.Count)];
     }
 }

@@ -1,23 +1,34 @@
 using UnityEngine;
 
+[RequireComponent (typeof(SpriteRenderer))]
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
-    private Vector3 _direction;
+    private SpriteRenderer _spriteRenderer;
+    private Transform _target;
+
+    public void Initialize(Transform target)
+    {
+        _target = target;
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
     private void Update()
     {
+        UpdateView();
         Move();
-    }
-
-    public void SetNormalizedDirection (Vector2 normalizedDirection)
-    {
-        _direction = normalizedDirection;
     }
 
     private void Move()
     {
-        transform.position += _speed * Time.deltaTime * _direction;
+        Vector3 direction = (_target.position - transform.position).normalized;
+
+        transform.Translate (direction * _speed * Time.deltaTime);
+    }
+
+    private void UpdateView()
+    {
+        _spriteRenderer.flipX = transform.position.x > _target.position.x;
     }
 }
